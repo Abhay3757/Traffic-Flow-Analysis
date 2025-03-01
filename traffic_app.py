@@ -106,7 +106,7 @@ class TrafficApp:
         map_frame = ttk.Frame(self.root)
         map_frame.pack(pady=20)
 
-        map_image = Image.open(r"C:\Users\abhaa\Python Project\map_image.png")
+        map_image = Image.open(r"C:\Users\abhaa\Traffic-Flow-Analysis\map_image.png")
         map_image = map_image.resize((600, 400), Image.LANCZOS)
         self.map_photo = ImageTk.PhotoImage(map_image)
 
